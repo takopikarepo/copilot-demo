@@ -1,3 +1,15 @@
+---
+name: "Review Diff"
+description: "Code review from git diff against team standards - pre-commit quality gate"
+model: "claude-sonnet"
+fallback_model: "gpt-4.1"
+context: ["changes"]
+tags: ["code-review", "quality", "standards", "pre-commit", "git"]
+version: "1.0.0"
+ide_support: ["vscode", "intellij"]
+author: "Java Team"
+---
+
 # Review Diff Prompt
 
 > **How to use in VS Code**: Stage your changes with `git add`, then in Copilot Chat type `/review-diff #changes`

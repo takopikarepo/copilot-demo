@@ -1,3 +1,16 @@
+---
+name: "Explain Plan"
+description: "Generate architecture plan before writing code - design-first approach"
+model: "claude-sonnet"
+fallback_model: "gpt-4.1"
+context: ["codebase"]
+tags: ["architecture", "planning", "design", "analysis"]
+version: "1.0.0"
+ide_support: ["vscode", "intellij"]
+author: "Java Team"
+requires_approval: true
+---
+
 # Explain Plan Prompt
 
 > **How to use in VS Code**: In Copilot Chat, type `/explain-plan` then describe the requirement

@@ -1,3 +1,16 @@
+---
+name: "JIRA Story to Code"
+description: "Convert JIRA story with acceptance criteria to full implementation with traceability"
+model: "claude-sonnet"
+fallback_model: "gpt-4.1"
+context: ["codebase"]
+tags: ["jira", "story", "implementation", "acceptance-criteria", "traceability"]
+version: "1.0.0"
+ide_support: ["vscode", "intellij"]
+author: "Java Team"
+requires_approval: true
+---
+
 # JIRA Story to Code Prompt
 
 > **How to use in VS Code**: In Copilot Chat, type `/jira-story-to-code` then paste your JIRA story

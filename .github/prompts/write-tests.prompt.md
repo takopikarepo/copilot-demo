@@ -1,3 +1,15 @@
+---
+name: "Write Tests"
+description: "Generate complete JUnit 5 + Mockito test suite for service class"
+model: "gpt-4.1"
+fallback_model: "claude-haiku"
+context: ["file"]
+tags: ["testing", "junit", "mockito", "spring-boot", "unit-test"]
+version: "1.0.0"
+ide_support: ["vscode", "intellij"]
+author: "Java Team"
+---
+
 # Write Tests Prompt
 
 > **How to use in VS Code**: Open the service class. In Copilot Chat, type `/write-tests`

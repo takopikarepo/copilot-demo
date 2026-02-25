@@ -1,3 +1,18 @@
+---
+name: "Pre-Commit Review"
+description: "Automated pre-commit quality gate with code review, test execution, and go/no-go verdict"
+model: "claude-sonnet"
+fallback_model: "gpt-4.1"
+context: ["changes"]
+tags: ["code-review", "pre-commit", "quality-gate", "testing", "agent"]
+version: "1.0.0"
+execution_mode: "autonomous"
+requires: ["git", "gradle"]
+capabilities: ["terminal_execution", "git_operations"]
+ide_support: ["vscode"]
+author: "Java Team"
+---
+
 # Pre-Commit Review Agent
 
 ## Description

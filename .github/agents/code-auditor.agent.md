@@ -1,3 +1,18 @@
+---
+name: "Code Auditor"
+description: "Full codebase standards audit with prioritized issues and actionable fixes"
+model: "claude-sonnet"
+fallback_model: "gpt-4.1"
+context: ["codebase"]
+tags: ["audit", "code-quality", "standards", "security", "architecture", "agent"]
+version: "1.0.0"
+execution_mode: "autonomous"
+requires: ["gradle"]
+capabilities: ["terminal_execution", "file_reading"]
+ide_support: ["vscode"]
+author: "Java Team"
+---
+
 # Code Auditor Agent
 
 ## Description

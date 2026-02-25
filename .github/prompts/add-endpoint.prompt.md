@@ -1,3 +1,15 @@
+---
+name: "Add Endpoint"
+description: "Add new REST endpoint to existing Spring Boot controller with full wiring"
+model: "gpt-4.1"
+fallback_model: "claude-sonnet"
+context: ["file", "codebase"]
+tags: ["api", "controller", "rest", "spring-boot", "endpoint"]
+version: "1.0.0"
+ide_support: ["vscode", "intellij"]
+author: "Java Team"
+---
+
 # Add Endpoint Prompt
 
 > **How to use in VS Code**: In Copilot Chat, type `/add-endpoint` then describe the endpoint

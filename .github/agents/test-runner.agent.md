@@ -1,3 +1,18 @@
+---
+name: "Test Runner"
+description: "Intelligent test execution with failure analysis, fix suggestions, and auto-retry until green"
+model: "gpt-4.1"
+fallback_model: "claude-sonnet"
+context: ["codebase"]
+tags: ["testing", "debugging", "test-runner", "agent"]
+version: "1.0.0"
+execution_mode: "autonomous"
+requires: ["gradle"]
+capabilities: ["terminal_execution", "file_modification", "self_correction"]
+ide_support: ["vscode"]
+author: "Java Team"
+---
+
 # Test Runner Agent
 
 ## Description

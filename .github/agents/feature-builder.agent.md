@@ -1,3 +1,18 @@
+---
+name: "Feature Builder"
+description: "End-to-end feature scaffolding with architecture planning and compilation verification"
+model: "claude-sonnet"
+fallback_model: "gpt-4.1"
+context: ["codebase"]
+tags: ["feature", "scaffold", "architecture", "full-stack", "agent"]
+version: "1.0.0"
+execution_mode: "autonomous"
+requires: ["gradle", "git"]
+capabilities: ["file_creation", "terminal_execution", "self_correction"]
+ide_support: ["vscode"]
+author: "Java Team"
+---
+
 # Feature Builder Agent
 
 ## Description
